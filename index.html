@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-index.css">
+    <title>Jogo da memória</title>
+</head>
+
+<body id="body">
+    <nav id="menu">
+        <h1>Jogo da Memória</h1>
+        <div>
+            <button id="botao-jogar"><a href="jogo.html">Jogar</a></button>
+            <button id="botao-tema">Escolher tema</button>
+            <button id="botao-creditos">Créditos</button>
+        </div>
+
+        <label>Nickname: <input type="text" id="nome"><button id="registrar" class="desaparecido">Registrar
+                Nome</button></label>
+        <p>Recorde: <span id="recorde">0</span></p>
+    </nav>
+
+    <div id="tema" class="invisivel">
+        <header>
+            <img src="imgs/casa.png" class="voltar">
+            <h1>Temas</h1>
+            <p>Escolha um tema antes de iniciar o jogo!</p>
+        </header>
+
+        <section>
+            <article>
+                <img src="imgs/presidentes/presidentes-verso.png">
+                <p>Presidentes</p>
+                <button class="botao-escolha" value="presidentes">Escolher</button>
+            </article>
+            <article>
+                <img src="imgs/sabrina/sabrina-verso.png">
+                <p>Sabrina Carpenter</p>
+                <button class="botao-escolha" value="sabrina">Escolher</button>
+            </article>
+            <article>
+                <img src="imgs/roblox/roblox-verso.png">
+                <p>Roblox</p>
+                <button class="botao-escolha" value="roblox">Escolher</button>
+            </article>
+        </section>
+    </div>
+
+    <div id="credito">
+        <header>
+            <h2>Participantes</h2>
+            <p>Sara, Thauan e Veronica</p>
+            <p>Obrigada Hasan, sabrina carpenter e roblox</p>
+            <a href="itens_opcionais.html">itens opcionais</a>
+        </header>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/temas.js"></script>
+</body>
+
+</html>
