@@ -2,7 +2,7 @@
     width: 200px;
     height: 283px; 
     background-size: cover;
-    
+    border-radius: 1em;
 }
 
 body{
@@ -107,11 +107,11 @@ body{
 }
 
 .padrao .c1{
-    background-color:rgb(107, 185, 191);
+    background-color:rgb(232, 0, 0);
 }
 
 .padrao .c2{
-    background-color:rgb(191, 107, 159);
+    background-color:rgb(243, 219, 0);
 
 }
 
@@ -121,7 +121,7 @@ body{
 }
 
 .padrao .c4{
-    background-color:rgb(122, 107, 191);
+    background-color:rgb(0, 27, 229);
 
 }
 

@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Trebuchet MS, sans-serif;
+    background-position: center center;
 }
 
 #menu{
